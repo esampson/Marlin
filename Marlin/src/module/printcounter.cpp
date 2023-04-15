@@ -97,11 +97,11 @@ void PrintCounter::initStats() {
   loaded = true;
 
   data = {
-      .totalPrints = 1149
-    , .finishedPrints = 1114
-    , .printTime = 17269002
+      .totalPrints = 1183
+    , .finishedPrints = 1148
+    , .printTime = 17374454
     , .longestPrint = 213681
-    OPTARG(HAS_EXTRUDERS, .filamentUsed = 5674460)
+    OPTARG(HAS_EXTRUDERS, .filamentUsed = 5711330)
     #if SERVICE_INTERVAL_1 > 0
       , .nextService1 = SERVICE_INTERVAL_SEC_1
     #endif
